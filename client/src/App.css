@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-style {
+  background: #61dafb;
+  color: #fff;
+  height: 60px;
+  width: 100%;
+}
+
+/*
+Code css pas soigné je me suis concentré sur le JS
+*/
+.profil-wrapper {
+  display: flex;
+}
+
+.profil-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.profil-container:last-child {
+  background-color: #C0E3BE;
+}
+
+.button {
+  background-color: #C0E3BE;
+  border-radius: 5px;
+  color: #303536;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.profil-form {
+  display: flex;
+  flex-grow: 1;
+}
+
+.profil-form input {
+  background: #e9e9e9;
+  border: none;
+  width: 250px;
+  height: 22px;
+}
+
+.profil-form label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.profil-form .label {
+  color: #E1E1E1;
+  font-size: 12px;
+}
+
+.profil-form .value {
+  color: #303536;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.submit-btn {
+  background: #fff;
+  width: 250px;
+  height: 22px;
+  border-radius: 5px;
+  color: #303536;
+}
+
+.profil-title {
+  color: #C0E3BE;
+  font-size: 18px;
+}
